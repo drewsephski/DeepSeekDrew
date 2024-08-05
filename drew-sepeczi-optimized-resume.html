@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drew Sepeczi - Full-Stack Developer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .contact-info p {
+            margin: 0 10px;
+        }
+        
+        .two-column {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .column {
+            width: 48%;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        
+        li::before {
+            content: "▹";
+            color: #3498db;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        .experience-item, .project-item {
+            margin-bottom: 15px;
+        }
+        
+        .experience-item h3, .project-item h3 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .date {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>DREW SEPECZI</h1>
+            <p>Full-Stack Developer | AI Enthusiast</p>
+            <div class="contact-info">
+                <p>Fox River Grove, IL</p>
+                <p>drewsepeczi@gmail.com</p>
+                <p>224-343-1711</p>
+                <p><a href="#">LinkedIn</a></p>
+            </div>
+        </header>
+
+        <section>
+            <h2>PROFESSIONAL SUMMARY</h2>
+            <p>Innovative Full-Stack Developer with expertise in building scalable web applications and AI-driven solutions. Proven track record of increasing e-commerce client revenue by over 50% through data-driven development strategies. Adept at leveraging cutting-edge technologies to create impactful user experiences and solve complex problems.</p>
+        </section>
+
+        <section>
+            <h2>TECHNICAL SKILLS</h2>
+            <div class="two-column">
+                <div class="column">
+                    <ul>
+                        <li><strong>Frontend:</strong> React, Vue.js, HTML5, CSS3, Tailwind</li>
+                        <li><strong>Backend:</strong> Node.js, Express, Python, Django</li>
+                        <li><strong>Databases:</strong> MongoDB, PostgreSQL, SQL</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li><strong>DevOps:</strong> Git, GitHub, AWS, Docker</li>
+                        <li><strong>AI/ML:</strong> TensorFlow, PyTorch, NLP</li>
+                        <li><strong>Other:</strong> RESTful APIs, GraphQL, WebGL</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>PROFESSIONAL EXPERIENCE</h2>
+            <div class="experience-item">
+                <h3>Full-Stack Engineer | Freelance</h3>
+                <p class="date">2021 - Present</p>
+                <ul>
+                    <li>Developed 20+ custom websites, increasing client traffic by 30% through SEO and performance optimization</li>
+                    <li>Implemented interactive 3D web experiences using Three.js and WebGL, boosting user engagement by 40%</li>
+                    <li>Built scalable e-commerce platforms with dynamic pricing algorithms, increasing conversion rates by 15%</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Python Engineer | AI Startup</h3>
+                <p class="date">2020 - 2022</p>
+                <ul>
+                    <li>Led development of data aggregation tool, enhancing analysis efficiency by 40%</li>
+                    <li>Implemented custom analytics dashboards for e-commerce clients, improving decision-making processes</li>
+                    <li>Developed and deployed machine learning models for predictive analytics in production environments</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>KEY PROJECTS</h2>
+            <div class="project-item">
+                <h3>AI-Powered Personal Assistant</h3>
+                <p>Developed LLM-based assistant using proprietary datasets, achieving 95% accuracy in natural language understanding</p>
+            </div>
+            <div class="project-item">
+                <h3>Educational AI Platform</h3>
+                <p>Created adaptive learning system with subject-specific language models, increasing student engagement by 35%</p>
+            </div>
+            <div class="project-item">
+                <h3>MERN Stack Social Media Application</h3>
+                <p>Built full-stack platform with real-time features, supporting 10,000+ active monthly users within three months of launch</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>EDUCATION & CERTIFICATIONS</h2>
+            <ul>
+                <li>B.S. in Business Data Analytics/Software Engineering, Western Kentucky University (Expected: 2025)</li>
+                <li>TripleTen Software Engineering Bootcamp, Completed 2023</li>
+                <li>Google Analytics Certified (2022)</li>
+                <li>AWS Certified Developer - Associate</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
